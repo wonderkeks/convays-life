@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#controls {
+    margin: 20px;
+}
+
+#grid {
+    display: grid;
+    gap: 1px;
+    background-color: #333;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.cell.alive {
+    background-color: black;
+}

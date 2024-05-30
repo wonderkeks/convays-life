@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conway's Game of Life</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Conway's Game of Life</h1>
+    <div id="controls">
+        <label for="rows">Rows:</label>
+        <input type="number" id="rows" min="1" value="20">
+        <label for="cols">Cols:</label>
+        <input type="number" id="cols" min="1" value="20">
+        <button id="resize">Resize</button>
+        <button id="random">Random</button>
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <p>Generation time: <span id="gen-time">0</span> ms</p>
+    </div>
+    <div id="grid"></div>
+    <script src="script.js"></script>
+</body>
+</html>
